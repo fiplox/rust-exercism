@@ -7,6 +7,5 @@ pub fn square(s: u32) -> u64 {
 }
 
 pub fn total() -> u64 {
-    let a: i128 = (1 << 64) - 1;
-    a as u64
+    std::u64::MAX
 }
